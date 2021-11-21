@@ -4,13 +4,13 @@ if [ ! -d "Release" ]; then
 fi
 
 cd Carthage/Build
-tar czf ../../Release/CHIPageControl.xcframework.tar.gz CHIPageControl.xcframework
-tar czf ../../Release/SVProgressHUD.xcframework.tar.gz SVProgressHUD.xcframework
-tar czf ../../Release/SlideMenuControllerSwift.xcframework.tar.gz SlideMenuControllerSwift.xcframework
+zip -r -X ../../Release/CHIPageControl.xcframework.zip CHIPageControl.xcframework
+zip -r -X ../../Release/SVProgressHUD.xcframework.zip SVProgressHUD.xcframework
+zip -r -X ../../Release/SlideMenuControllerSwift.xcframework.zip SlideMenuControllerSwift.xcframework
 cd ../../Build
-tar czf ../Release/GoogleMaps.xcframework.tar.gz GoogleMaps.xcframework
-tar czf ../Release/GoogleMapsBase.xcframework.tar.gz GoogleMapsBase.xcframework
-tar czf ../Release/GoogleMapsCore.xcframework.tar.gz GoogleMapsCore.xcframework
-tar czf ../Release/GoogleMapsM4B.xcframework.tar.gz GoogleMapsM4B.xcframework
-tar czf ../Release/GooglePlaces.xcframework.tar.gz GooglePlaces.xcframework
+zip -r -X ../Release/GoogleMaps.xcframework.zip GoogleMaps.xcframework
+zip -r -X ../Release/GoogleMapsBase.xcframework.zip GoogleMapsBase.xcframework
+zip -r -X ../Release/GoogleMapsCore.xcframework.zip GoogleMapsCore.xcframework
+zip -r -X ../Release/GoogleMapsM4B.xcframework.zip GoogleMapsM4B.xcframework
+zip -r -X ../Release/GooglePlaces.xcframework.zip GooglePlaces.xcframework
 
