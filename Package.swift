@@ -34,32 +34,31 @@ let package = Package(
   targets: [
     .binaryTarget(
         name: "SVProgressHUD",
-        path: "Carthage/Build/SVProgressHUD.xcframework"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/v0.1.2/SVProgressHUD.xcframework.tar.gz"
     ),
     .binaryTarget(
         name: "SlideMenuControllerSwift",
-        path: "Carthage/Build/SlideMenuControllerSwift.xcframework"
-    ),    
+        url: "https://github.com/luupsc/ios_libraries/releases/download/v0.1.2/SlideMenuControllerSwift.xcframework.tar.gz"
+    ),
     .binaryTarget(
         name: "CHIPageControl",
-        path: "Carthage/Build/CHIPageControl.xcframework"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/v0.1.2/CHIPageControl.xcframework.tar.gz"
     ),
     .binaryTarget(
         name: "GoogleMaps",
-        path: "Build/GoogleMaps.xcframework"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/v0.1.2/GoogleMaps.xcframework.tar.gz"
     ),
     .binaryTarget(
         name: "GoogleMapsBase",
-        path: "Build/GoogleMapsBase.xcframework"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/v0.1.2/GoogleMapsBase.xcframework.tar.gz"
     ),
     .binaryTarget(
         name: "GoogleMapsCore",
-        path: "Build/GoogleMapsCore.xcframework"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/v0.1.2/GoogleMapsCore.xcframework.tar.gz"
     ),
     .binaryTarget(
         name: "GooglePlaces",
-        path: "Build/GooglePlaces.xcframework"
-    ),
-    
+        url: "https://github.com/luupsc/ios_libraries/releases/download/v0.1.2/GooglePlaces.xcframework.tar.gz"
+    ),    
   ]
 )
