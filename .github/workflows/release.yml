@@ -1,0 +1,32 @@
+name: "Release"
+
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+    - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+jobs:
+  release:
+    runs-on: macOS-11
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Carthage
+        run: carthage bootstrap --use-xcframeworks --use-submodules --platform iOS
+      - name: Build GoogleMaps
+        run: ./make_xcframework.sh
+      - name: Archive
+        run: ./make_release.sh
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            Release/CHIPageControl.xcframework.tar.gz
+            Release/GoogleMapsBase.xcframework.tar.gz
+            Release/GoogleMapsM4B.xcframework.tar.gz
+            Release/SVProgressHUD.xcframework.tar.gz
+            Release/GoogleMaps.xcframework.tar.gz
+            Release/GoogleMapsCore.xcframework.tar.gz
+            Release/GooglePlaces.xcframework.tar.gz
+            Release/SlideMenuControllerSwift.xcframework.tar.gz
