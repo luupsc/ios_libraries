@@ -27,9 +27,14 @@ let package = Package(
     .library(
       name: "GooglePlaces",
       targets: ["GooglePlaces"]
-    )
+    ),
+    .library(
+      name: "segment-appsflyer-ios",
+      targets: ["segment-appsflyer-ios"]
+    ),
   ],
   dependencies: [
+    .package(name: "Segment", url: "https://github.com/segmentio/analytics-ios.git" , from: "4.0.0")
   ],
   targets: [
     .binaryTarget(
@@ -66,6 +71,20 @@ let package = Package(
         name: "GooglePlaces",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.1.9/GooglePlaces.xcframework.zip",
         checksum: "089e6e4303a2a6d87df96a2d4e0caf5bcbad9e81474eeb7301cca40cecbc4e43"
-    ),    
+    ),
+    .target(
+        name: "segment-appsflyer-ios",
+        dependencies: [
+            "Segment",
+            "AppsFlyerLib"
+            ],
+        path: "segment-appsflyer-ios/Classes",
+        publicHeadersPath: ""
+        ),
+    .binaryTarget(
+        name: "AppsFlyerLib",
+        url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework/releases/download/6.4.4/AppsFlyerLib.xcframework.zip",
+        checksum: "8924e43bfec9a0abe3b47b6062c434e08ca824df4648a8ea0abf8018f72709c3"
+    )
   ]
 )
