@@ -5,7 +5,9 @@ on:
     # Sequence of patterns matched against refs/tags
     tags:
       - "*"
-
+env:
+  DEVELOPER_DIR: /Applications/Xcode_13.2.1.app
+  
 jobs:
   release:
     runs-on: macOS-11
