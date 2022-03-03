@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Carthage
-        run: carthage bootstrap --no-use-binaries --use-xcframeworks --use-submodules --platform iOS
+        run: ./carthage.sh bootstrap --no-use-binaries --use-xcframeworks --use-submodules --platform iOS
       - name: Build GoogleMaps
         run: ./make_xcframework.sh
       - name: Archive
