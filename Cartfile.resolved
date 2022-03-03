@@ -1,5 +1,4 @@
 binary "https://dl.google.com/geosdk/GoogleMaps.json" "4.1.0"
 binary "https://dl.google.com/geosdk/GooglePlaces.json" "4.1.0"
-github "ChiliLabs/CHIPageControl" "0.2"
 github "SVProgressHUD/SVProgressHUD" "2.2.5"
 github "luupsc/SlideMenuControllerSwift" "4e2f2e7976764cf2a4172af5799e846dfaccca2c"
