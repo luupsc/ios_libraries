@@ -31,32 +31,32 @@ let package = Package(
     .binaryTarget(
         name: "SVProgressHUD",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/SVProgressHUD.xcframework.zip",
-        checksum: "0bb8977bf57a8c942d4021c45d7aae832c2110f9a1fc5758d2214a88d860fc18"
+        checksum: "ddc797e27d39f598d4321cb12cd9c724fcc38421d0611e38a922262601f66884"
     ),
     .binaryTarget(
         name: "SlideMenuControllerSwift",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/SlideMenuControllerSwift.xcframework.zip",
-        checksum: "b32ea3c6d1c804112dcc6331dc46ee54a51694a79f89c370e2902a321b6db26c"
+        checksum: "e6b8d90f75d5e1a065ca01ca5980543a3ea53110e1b1e2557996951f9b0e8a08"
     ),
     .binaryTarget(
         name: "GoogleMaps",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GoogleMaps.xcframework.zip",
-        checksum: "7e34a724b48706b18f8696a3aad36ca9618abe963d6d56c856cb3ed44158ab91"
+        checksum: "c39b97f775d41346ca7f4d8530fcc1b46932b3cec0214d62278e6a28f14fc2eb"
     ),
     .binaryTarget(
         name: "GoogleMapsBase",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GoogleMapsBase.xcframework.zip",
-        checksum: "e6511e7d6f65eb624af371f19617ef6f2b38c77479ef85de204f959c183dff8b"
+        checksum: "6854814ecaa92592df64269228e6a1b1e73169c90d52ec15aa9d6b98230a9f45"
     ),
     .binaryTarget(
         name: "GoogleMapsCore",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GoogleMapsCore.xcframework.zip",
-        checksum: "6153f46fb477c8209e61ca82091c8261c1c3d178ede600ef266aaa4e6d4bdb06"
+        checksum: "1d5c174fbfffc33a9d44d98f036ead6cb1c52ac819e908009946f966744b1eb4"
     ),
     .binaryTarget(
         name: "GooglePlaces",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GooglePlaces.xcframework.zip",
-        checksum: "21fe159ce4167ddba8e42fc5f94e208ba2ed0a93fdc29c2a52236d626aba63cc"
+        checksum: "c3ba7f6d40cd6649c6866f24291222206da625da644f42c140e1b97cecc1e4b5"
     )
   ]
 )
