@@ -30,33 +30,33 @@ let package = Package(
   targets: [
     .binaryTarget(
         name: "SVProgressHUD",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/SVProgressHUD.xcframework.zip",
-        checksum: "ddc797e27d39f598d4321cb12cd9c724fcc38421d0611e38a922262601f66884"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.7/SVProgressHUD.xcframework.zip",
+        checksum: "9dbe24a72f4845a2eb99a128c15befa6071dc72d4094e453c44d3c5d16dec7a7"
     ),
     .binaryTarget(
         name: "SlideMenuControllerSwift",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/SlideMenuControllerSwift.xcframework.zip",
-        checksum: "e6b8d90f75d5e1a065ca01ca5980543a3ea53110e1b1e2557996951f9b0e8a08"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.7/SlideMenuControllerSwift.xcframework.zip",
+        checksum: "5a043240d2c7385792a339fe3f0f555e7d136b7a7e5a8ecb724ae39faa081f54"
     ),
     .binaryTarget(
         name: "GoogleMaps",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GoogleMaps.xcframework.zip",
-        checksum: "c39b97f775d41346ca7f4d8530fcc1b46932b3cec0214d62278e6a28f14fc2eb"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.7/GoogleMaps.xcframework.zip",
+        checksum: "d1d49be854f06d44d72dc904816cc791899b4cb6ed10a83f94c81a5f99d02e4b"
     ),
     .binaryTarget(
         name: "GoogleMapsBase",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GoogleMapsBase.xcframework.zip",
-        checksum: "6854814ecaa92592df64269228e6a1b1e73169c90d52ec15aa9d6b98230a9f45"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.7/GoogleMapsBase.xcframework.zip",
+        checksum: "670857aa5cfaf1414437ac1d999ddac0c6b37e35fcd0e17aca645384189f7ff9"
     ),
     .binaryTarget(
         name: "GoogleMapsCore",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GoogleMapsCore.xcframework.zip",
-        checksum: "1d5c174fbfffc33a9d44d98f036ead6cb1c52ac819e908009946f966744b1eb4"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.7/GoogleMapsCore.xcframework.zip",
+        checksum: "052f106dce57eadeaa5212bc21140c6c063b63e9cb2c34d1384539a757e902f6"
     ),
     .binaryTarget(
         name: "GooglePlaces",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.5/GooglePlaces.xcframework.zip",
-        checksum: "c3ba7f6d40cd6649c6866f24291222206da625da644f42c140e1b97cecc1e4b5"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.2.7/GooglePlaces.xcframework.zip",
+        checksum: "641f79d976f376a362efd033e0d1bdaba57b12a480f8ae029fe467b8feb52124"
     )
   ]
 )
