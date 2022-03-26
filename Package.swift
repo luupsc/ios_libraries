@@ -11,14 +11,6 @@ let package = Package(
       targets: ["SVProgressHUD"]
     ),
     .library(
-      name: "SlideMenuControllerSwift",
-      targets: ["SlideMenuControllerSwift"]
-    ),
-    .library(
-      name: "CHIPageControl",
-      targets: ["CHIPageControl"]
-    ),
-    .library(
       name: "GoogleMaps",
       targets: ["GoogleMaps",
                 "GoogleMapsBase",
