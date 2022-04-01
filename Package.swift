@@ -27,7 +27,7 @@ let package = Package(
     .binaryTarget(
         name: "SVProgressHUD",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.3.3/SVProgressHUD.xcframework.zip",
-        checksum: "3e83465e5b3243c0283b372963555b29bce03fda5cb78213ba241948804a2065  "
+        checksum: "3e83465e5b3243c0283b372963555b29bce03fda5cb78213ba241948804a2065"
     ),
     .binaryTarget(
         name: "GoogleMaps",
