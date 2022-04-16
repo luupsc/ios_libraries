@@ -26,28 +26,28 @@ let package = Package(
   targets: [
     .binaryTarget(
         name: "SVProgressHUD",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.0/SVProgressHUD.xcframework.zip",
-        checksum: "e369f8f763f601e0bd6425b49f074df270d50cba625193b150da56859cc68269"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.1/SVProgressHUD.xcframework.zip",
+        checksum: "e9022fd768cfd3c5e301cc27e9913844037a262c88d9acf7e10dde14c387b86c"
     ),
     .binaryTarget(
         name: "GoogleMaps",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.0/GoogleMaps.xcframework.zip",
-        checksum: "e61c0106f98920a9e6080e6b9466c54dd720a4d2bb7e6b65addd5a2d0c28246f"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.1/GoogleMaps.xcframework.zip",
+        checksum: "b726e25058481dca0a4adc7f5117bb5d67923ea484b5ef6612aa44084c4a1cfa"
     ),
     .binaryTarget(
         name: "GoogleMapsBase",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.0/GoogleMapsBase.xcframework.zip",
-        checksum: "9f0c29659310f06b593848b212a80c378dc47d4719557ad457a9f453b3054519"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.1/GoogleMapsBase.xcframework.zip",
+        checksum: "cad0050e809c08dd24e1a1ee3448dd0da26084a9be4f1c26db151230c574e45a"
     ),
     .binaryTarget(
         name: "GoogleMapsCore",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.0/GoogleMapsCore.xcframework.zip",
-        checksum: "ee91db5c4ce1c504e15650419a987992b60d7b5096bff3551883953ae143f8ab"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.1/GoogleMapsCore.xcframework.zip",
+        checksum: "430aa4d09705153e5737a9ee09a47172fe61a81310c3287f2b6c24befe0fdae4"
     ),
     .binaryTarget(
         name: "GooglePlaces",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.0/GooglePlaces.xcframework.zip",
-        checksum: "88c57771e0a0a20dcf8b09d053e97b4e127ddbb02fa149e28378269dc0a8b82d"
+        url: "https://github.com/luupsc/ios_libraries/releases/download/0.4.1/GooglePlaces.xcframework.zip",
+        checksum: "5764b504da3ac8cc3bf452a03a6320486096c2683c4f21855d7d1cb60eeec571"
     )
   ]
 )
