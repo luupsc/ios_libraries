@@ -4,16 +4,14 @@ if [ ! -d "Release" ]; then
 fi
 
 cd Carthage/Build
-cp ../../GoogleMaps/Info.plist GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Info.plist
-cp ../../GoogleMaps/Info.plist GoogleMaps.xcframework/ios-x86_64_arm64-simulator/GoogleMaps.framework/Info.plist
-cp ../../GoogleMapsBase/Info.plist GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Info.plist
-cp ../../GoogleMapsBase/Info.plist GoogleMapsBase.xcframework/ios-x86_64_arm64-simulator/GoogleMapsBase.framework/Info.plist
-cp ../../GoogleMapsBase/Info.plist GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/Info.plist
-cp ../../GoogleMapsBase/Info.plist GoogleMapsCore.xcframework/ios-x86_64_arm64-simulator/GoogleMapsCore.framework/Info.plist
-cp ../../GoogleMapsM4B/Info.plist GoogleMapsM4B.xcframework/ios-arm64/GoogleMapsM4B.framework/Info.plist
-cp ../../GoogleMapsM4B/Info.plist GoogleMapsM4B.xcframework/ios-x86_64_arm64-simulator/GoogleMapsM4B.framework/Info.plist
-cp ../../GooglePlaces/Info.plist GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Info.plist
-cp ../../GooglePlaces/Info.plist GooglePlaces.xcframework/ios-x86_64_arm64-simulator/GooglePlaces.framework/Info.plist
+cp ../../GoogleMaps/ios-arm64/Info.plist GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Info.plist
+cp ../../GoogleMaps/ios-x86_64_arm64-simulator/Info.plist GoogleMaps.xcframework/ios-x86_64_arm64-simulator/GoogleMaps.framework/Info.plist
+cp ../../GoogleMapsBase/ios-arm64/Info.plist GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Info.plist
+cp ../../GoogleMapsBase/ios-x86_64_arm64-simulator/Info.plist GoogleMapsBase.xcframework/ios-x86_64_arm64-simulator/GoogleMapsBase.framework/Info.plist
+cp ../../GoogleMapsBase/ios-arm64/Info.plist GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/Info.plist
+cp ../../GoogleMapsBase/ios-x86_64_arm64-simulator/Info.plist GoogleMapsCore.xcframework/ios-x86_64_arm64-simulator/GoogleMapsCore.framework/Info.plist
+cp ../../GooglePlaces/ios-arm64/Info.plist GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Info.plist
+cp ../../GooglePlaces/ios-x86_64_arm64-simulator/Info.plist GooglePlaces.xcframework/ios-x86_64_arm64-simulator/GooglePlaces.framework/Info.plist
 
 zip -r -X ../../Release/SVProgressHUD.xcframework.zip SVProgressHUD.xcframework
 zip -r -X ../../Release/GoogleMaps.xcframework.zip GoogleMaps.xcframework
