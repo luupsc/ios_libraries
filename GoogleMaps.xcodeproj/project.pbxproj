@@ -127,6 +127,7 @@
 		8A71086E26526AE900C2AD24 /* GMSPlacesErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A71085626526AE900C2AD24 /* GMSPlacesErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A8B4E8F278317090014EB33 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8B4E8E278317090014EB33 /* Metal.framework */; };
 		8AD14F4F2783159400B1AB33 /* GMSStampStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD14F4E2783159400B1AB33 /* GMSStampStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2871EDD283A081900400F4B /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2871EDC283A081900400F4B /* Dummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +263,7 @@
 		8A8C8F2F25387A7C00F5C247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AD14F4E2783159400B1AB33 /* GMSStampStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSStampStyle.h; sourceTree = "<group>"; };
 		D223C7B92839F96700E8537A /* A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A.swift; sourceTree = "<group>"; };
+		D2871EDC283A081900400F4B /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -594,6 +596,7 @@
 			children = (
 				8A8C8F0E25387A4B00F5C247 /* Info.plist */,
 				8A66400B25397D7D000E9321 /* GoogleMapsCore */,
+				D2871EDC283A081900400F4B /* Dummy.swift */,
 				8A66400925397D7D000E9321 /* Modules */,
 			);
 			path = GoogleMapsCore;
@@ -855,6 +858,7 @@
 					};
 					8A8C8F0A25387A4B00F5C247 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1340;
 					};
 					8A8C8F1A25387A5800F5C247 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -945,6 +949,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2871EDD283A081900400F4B /* Dummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1100,6 +1105,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
@@ -1122,6 +1128,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Simulator Release";
@@ -1432,6 +1439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
@@ -1454,6 +1462,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1462,6 +1472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 060000;
 				DEFINES_MODULE = YES;
@@ -1484,6 +1495,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
