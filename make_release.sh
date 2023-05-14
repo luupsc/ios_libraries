@@ -10,12 +10,7 @@ zip -r -X ../Release/GoogleMapsBase.xcframework.zip GoogleMapsBase.xcframework
 zip -r -X ../Release/GoogleMapsCore.xcframework.zip GoogleMapsCore.xcframework
 zip -r -X ../Release/GooglePlaces.xcframework.zip GooglePlaces.xcframework
 
-cd ../Carthage/Build
-
-zip -r -X ../../Release/SVProgressHUD.xcframework.zip SVProgressHUD.xcframework
-
-cd ../../Release
-shasum -a 256 "SVProgressHUD.xcframework.zip" >> checksum
+cd ../Release
 shasum -a 256 "GoogleMaps.xcframework.zip" >> checksum
 shasum -a 256 "GoogleMapsBase.xcframework.zip" >> checksum
 shasum -a 256 "GoogleMapsCore.xcframework.zip" >> checksum

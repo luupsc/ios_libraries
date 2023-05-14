@@ -7,10 +7,6 @@ let package = Package(
   name: "Frameworks",
   products: [
     .library(
-      name: "SVProgressHUD",
-      targets: ["SVProgressHUD"]
-    ),
-    .library(
       name: "GoogleMaps",
       targets: ["GoogleMaps",
                 "GoogleMapsBase",
@@ -24,11 +20,6 @@ let package = Package(
   dependencies: [
   ],
   targets: [
-    .binaryTarget(
-        name: "SVProgressHUD",
-        url: "https://github.com/luupsc/ios_libraries/releases/download/0.5.4/SVProgressHUD.xcframework.zip",
-        checksum: "4db2b76605342978ef84c91926cc6c696519672b07f7f2eb11440ab8ee7317e0"
-    ),
     .binaryTarget(
         name: "GoogleMaps",
         url: "https://github.com/luupsc/ios_libraries/releases/download/0.5.4/GoogleMaps.xcframework.zip",
